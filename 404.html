@@ -225,20 +225,15 @@
     <script src="js/main.js"></script>
     <script src="js/init.js"></script>
 
-    <!-- WhatsApp Script -->
-    <script type="text/javascript">
-        (function () {
-            var options = {
-                whatsapp: "905445598071",
-                call_to_action: "👨: Merhaba, size nasıl yardımcı olabilirim?",
-                position: "left",
-            };
-            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/lib/init/init.js';
-            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })();
-    </script>
+   <!-- WhatsApp Script -->
+   <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+   <script>
+       var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "905445598071", "welcomeMessage": "Ürünlerinizle ilgili bilgi almak istiyorum", "zIndex": 999999, "btnColorScheme": "light" };
+       var wa_widgetSetting = { "title": "Enkabin", "subTitle": "1 saat içinde cevaplar", "headerBackgroundColor": "#16BE45", "headerColorScheme": "dark", "greetingText": "Enkabin'e hoşgeldiniz! \nSize nasıl yardımcı olabiliriz?", "ctaText": "Sohbete başla", "btnColor": "#16BE45", "cornerRadius": 40, "welcomeMessage": "Hello", "btnColorScheme": "light", "brandImage": "img/favicon.ico", "darkHeaderColorScheme": { "title": "#333333", "subTitle": "#4F4F4F" } };
+       window.onload = () => {
+           _waEmbed(wa_btnSetting, wa_widgetSetting);
+       };
+   </script>
 
 </body>
 
