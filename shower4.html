@@ -35,6 +35,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!--Fancybox Lib for photos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 </head>
 
 <body>
@@ -86,41 +89,40 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
             font-size: 2em; color: #000 !important;"><b>ENKABİN</b></h2>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
-                    <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
-                    <a href="service.html" class="nav-item nav-link">Hizmetler</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="shower.html" class="dropdown-item">Duşakabinler</a>
-                            <a href="bathtub.html" class="dropdown-item">Küvetler</a>
-                            <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
-                        </div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                <a href="service.html" class="nav-item nav-link">Hizmetler</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="shower.html" class="dropdown-item">Duşakabinler</a>
+                        <a href="bathtub.html" class="dropdown-item">Küvetler</a>
+                        <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Neden Enkabin?</a>
-                            <a href="team.html" class="dropdown-item">Ekibimiz</a>
-                            <a href="quote.html" class="dropdown-item">Teklif Alın</a>
-                            <a href="testimonial.html" class="dropdown-item">Kullanıcı Yorumları</a>
-                            <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">İletişim</a>
                 </div>
-                <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
-                        class="fa fa-arrow-right ms-3"></i></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="feature.html" class="dropdown-item">Neden Enkabin?</a>
+                        <a href="team.html" class="dropdown-item">Ekibimiz</a>
+                        <a href="quote.html" class="dropdown-item">Teklif Alın</a>
+                        <a href="testimonial.html" class="dropdown-item">Kullanıcı Yorumları</a>
+                        <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">İletişim</a>
             </div>
+            <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
     </nav>
     <!-- Navbar End -->
 
@@ -138,81 +140,117 @@
         </div>
     </div>
     <!-- Page Header End -->
+
+
     <!-- Projects Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Duşakabinler</h1>
-            </div>
-
-            <!-- Kompakt Start -->
-
-            <!-- Section 5 -->
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item third" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kompakt-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kompakt-1.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-1.jpg">
+                                <img class="img-fluid" src="img/temperli-1.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Kompakt Sistem Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Elegant Oval Kompakt Sistem</h5>
+                        <div class="p-4">
+                            <h5 class="mb-3">Süper Lüks Kare Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item third" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kompakt-2.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kompakt-2.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-2.jpg">
+                                <img class="img-fluid" src="img/temperli-2.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Kompakt Sistem Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Elenor Oval Kompakt Sistem</h5>
+                        <div class="p-4">
+                            <h5 class="mb-3">Süper Lüks Oval Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item third" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kompakt-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kompakt-3.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-3.jpg">
+                                <img class="img-fluid" src="img/temperli-3.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Kompakt Sistem Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Fresh Düz Compact Sistem Duşakabin</h5>
+                        <div class="p-4">
+                            <h5 class="mb-3">2 Sabit 2 Kayar Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Kompakt End -->
-
-            <div class="row mt-5" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2"><a href="shower.html">1</a></li>
-                        <li class="mx-2"><a href="shower2.html">2</a></li>
-                        <li class="mx-2"><a href="shower3.html">3</a></li>
-                        <li class="mx-2"><a href="shower4.html">4</a></li>
-                    </ul>
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-4.jpg">
+                                <img class="img-fluid" src="img/temperli-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3">1 Sabit 1 Kayar Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-5.jpg">
+                                <img class="img-fluid" src="img/temperli-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3">2 Sabit 1 Kayar Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-6.jpg">
+                                <img class="img-fluid" src="img/temperli-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3">Siyah Konsept Cam Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item">
+                    <a class="page-link" href="shower3.html" tabindex="-1">Önceki</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="shower.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="shower2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="shower3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="shower4.html">4</a></li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="shower4.html">Sonraki</a>
+                </li>
+            </ul>
+        </nav>
     </div>
     <!-- Projects End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow" data-wow-delay="0.1s">
@@ -296,19 +334,20 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-   <!-- WhatsApp Script -->
-   <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-   <script>
-       var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "905445598071", "welcomeMessage": "Ürünlerinizle ilgili bilgi almak istiyorum.", "zIndex": 999999, "btnColorScheme": "light" };
-       var wa_widgetSetting = { "title": "Enkabin", "subTitle": "1 saat içinde cevaplar", "headerBackgroundColor": "#16BE45", "headerColorScheme": "dark", "greetingText": "Enkabin'e hoşgeldiniz! \nSize nasıl yardımcı olabiliriz?", "ctaText": "Sohbete başla", "btnColor": "#16BE45", "cornerRadius": 40, "welcomeMessage": "Hello", "btnColorScheme": "light", "brandImage": "img/favicon.ico", "darkHeaderColorScheme": { "title": "#333333", "subTitle": "#4F4F4F" } };
-       window.onload = () => {
-           _waEmbed(wa_btnSetting, wa_widgetSetting);
-       };
-   </script>
+    <!-- WhatsApp Script -->
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+        var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "905445598071", "welcomeMessage": "Ürünlerinizle ilgili bilgi almak istiyorum.", "zIndex": 999999, "btnColorScheme": "light" };
+        var wa_widgetSetting = { "title": "Enkabin", "subTitle": "1 saat içinde cevaplar", "headerBackgroundColor": "#16BE45", "headerColorScheme": "dark", "greetingText": "Enkabin'e hoşgeldiniz! \nSize nasıl yardımcı olabiliriz?", "ctaText": "Sohbete başla", "btnColor": "#16BE45", "cornerRadius": 40, "welcomeMessage": "Hello", "btnColorScheme": "light", "brandImage": "img/favicon.ico", "darkHeaderColorScheme": { "title": "#333333", "subTitle": "#4F4F4F" } };
+        window.onload = () => {
+            _waEmbed(wa_btnSetting, wa_widgetSetting);
+        };
+    </script>
 
 
 </body>

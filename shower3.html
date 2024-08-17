@@ -35,6 +35,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!--Fancybox Lib for photos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 </head>
 
 <body>
@@ -86,41 +89,40 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
             font-size: 2em; color: #000 !important;"><b>ENKABİN</b></h2>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
-                    <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
-                    <a href="service.html" class="nav-item nav-link">Hizmetler</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="shower.html" class="dropdown-item">Duşakabinler</a>
-                            <a href="bathtub.html" class="dropdown-item">Küvetler</a>
-                            <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
-                        </div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                <a href="service.html" class="nav-item nav-link">Hizmetler</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="shower.html" class="dropdown-item">Duşakabinler</a>
+                        <a href="bathtub.html" class="dropdown-item">Küvetler</a>
+                        <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Neden Enkabin?</a>
-                            <a href="team.html" class="dropdown-item">Ekibimiz</a>
-                            <a href="quote.html" class="dropdown-item">Teklif Alın</a>
-                            <a href="testimonial.html" class="dropdown-item">Kullanıcı Yorumları</a>
-                            <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">İletişim</a>
                 </div>
-                <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
-                        class="fa fa-arrow-right ms-3"></i></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="feature.html" class="dropdown-item">Neden Enkabin?</a>
+                        <a href="team.html" class="dropdown-item">Ekibimiz</a>
+                        <a href="quote.html" class="dropdown-item">Teklif Alın</a>
+                        <a href="testimonial.html" class="dropdown-item">Kullanıcı Yorumları</a>
+                        <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">İletişim</a>
             </div>
+            <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
     </nav>
     <!-- Navbar End -->
 
@@ -143,136 +145,110 @@
     <!-- Projects Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Duşakabinler</h1>
-            </div>
-
-            <!-- Shower Start -->
-
-            <!-- Section 5 -->
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/temperli-13.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/temperli-13.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+            <div class="row g-4">
+                <!-- Product 13 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-13.jpg">
+                                <img class="img-fluid" src="img/temperli-13.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Temperli Cam Lüks Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Akordeon Sistem Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Akordeon Sistem Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item first" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/temperli-14.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/temperli-13.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 14 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-14.jpg">
+                                <img class="img-fluid" src="img/temperli-14.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Temperli Cam Lüks Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Askılı Sistem Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Askılı Sistem Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item first" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/temperli-15.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/temperli-13.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 15 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/temperli-15.jpg">
+                                <img class="img-fluid" src="img/temperli-15.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Temperli Cam Lüks Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Pirinç Sistem Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Pirinç Sistem Duşakabin</h5>
+                            <p>Temperli Cam Lüks Duşakabinler</p>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Mika Start -->
-
-            <!-- Section 6 -->
-            <div class="row g-4 portfolio-container mt-5">
-                <div class="col-lg-4 col-md-6 portfolio-item second" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/mika-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/mika-1.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 16 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/mika-1.jpg">
+                                <img class="img-fluid" src="img/mika-1.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Bella, Mika Duş Kabinleri</p>
-                            <h5 class="lh-base mb-0">Bella Kare Mika Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Bella Kare Mika Duşakabin</h5>
+                            <p>Bella, Mika Duş Kabinleri</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/mika-2.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/mika-2.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 17 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/mika-2.jpg">
+                                <img class="img-fluid" src="img/mika-2.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Bella, Mika Duş Kabinleri</p>
-                            <h5 class="lh-base mb-0">Bella Oval Mika Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Bella Oval Mika Duşakabin</h5>
+                            <p>Bella, Mika Duş Kabinleri</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/mika-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/mika-3.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
-                            </div>
+                <!-- Product 18 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <a data-fancybox="gallery" href="img/mika-3.jpg">
+                                <img class="img-fluid" src="img/mika-3.jpg" alt="">
+                            </a>
                         </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Bella, Mika Duş Kabinleri</p>
-                            <h5 class="lh-base mb-0">Bella 2 Sabit 2 Kayar Mika Duşakabin</a>
+                        <div class="p-4">
+                            <h5 class="mb-3">Bella 2 Sabit 2 Kayar Mika Duşakabin</h5>
+                            <p>Bella, Mika Duş Kabinleri</p>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Mika End -->
-
-            <div class="row mt-5" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2"><a href="shower.html">1</a></li>
-                        <li class="mx-2"><a href="shower2.html">2</a></li>
-                        <li class="mx-2"><a href="shower3.html">3</a></li>
-                        <li class="mx-2"><a href="shower4.html">4</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
 
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item">
+                    <a class="page-link" href="shower2.html" tabindex="-1">Önceki</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="shower.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="shower2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="shower3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="shower4.html">4</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="shower4.html">Sonraki</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <!-- Projects End -->
 
 
@@ -358,6 +334,7 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
@@ -371,7 +348,8 @@
             _waEmbed(wa_btnSetting, wa_widgetSetting);
         };
     </script>
- 
+
+
 </body>
 
 </html>

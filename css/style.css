@@ -346,6 +346,15 @@
 
 
 /*** Project Portfolio ***/
+.project-item .position-relative .bg-light {
+    display: none;
+}
+
+.project-item .position-relative .bg-primary {
+    display: none;
+}
+
+
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
@@ -396,11 +405,12 @@
     opacity: 1;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+@media (max-width: 600px) {
+    .container.portfolio-item {
+        flex-direction: column;
+    }
 }
+
 
 
 /*** Quote ***/
@@ -626,14 +636,5 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
-}
-
-.sc-8eqc3y-0.cEaIkM {
-    font-size: 0.9em !important; /* Adjust the font-size as needed */
-    font-family: Consolas !important; /* Adjust the font-family as needed */
-    font-weight: bold !important; /* Make the text bold */
-    color: black !important; /* Change text color */
-    display: flex !important; /* Flexbox layout */
-    align-items: left !important; /* Center align items */
 }
 
