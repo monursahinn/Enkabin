@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <title>ENKABİN</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="duşakabin, küvet, banyo dekorasyonu, ankara duşakabin, enkabin" name="keywords">
+    <meta content="ENKABİN - Duşakabin, küvet, tavan ve menfez sistemlerinde modern, kaliteli ve profesyonel çözümler."
+        name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -15,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@500;700;900&family=Rajdhani:wght@600;700&display=swap"
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
@@ -35,7 +36,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -49,7 +49,7 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid topbar-wrap p-0">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -83,21 +83,28 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
-            font-size: 2em; color: #000 !important;"><b>ENKABİN</b></h2>
+            <div class="brand-mark">
+                <!-- <span class="brand-mark-box">
+                    <img src="img/favicon.ico" alt="Enkabin Logo">
+                </span> -->
+                <h2 class="brand-title" style="font-size: 3.2rem !important;">ENKABİN</h2>
+            </div>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-label="Menüyü Aç">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
                 <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
                 <a href="service.html" class="nav-item nav-link">Hizmetlerimiz</a>
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -106,6 +113,7 @@
                         <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
                     </div>
                 </div>
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -116,32 +124,34 @@
                         <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
                     </div>
                 </div>
+
                 <a href="contact.html" class="nav-item nav-link">İletişim</a>
             </div>
-            <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+
+            <a href="service.html" class="btn nav-cta d-none d-lg-inline-flex">
+                <span>Keşfet</span> <i class="fa fa-arrow-right ms-3"></i>
+            </a>
         </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
+    <div class="container-fluid p-0 pb-5 hero-wrap">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, .7);">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="ENKABİN duşakabin tasarımı">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center hero-overlay">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Enkabin'e Hoşgeldiniz!
+                            <div class="col-12 col-lg-9 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Enkabin'e Hoş Geldiniz
                                 </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Duşakabin ve Banyo Hizmetleri
-                                </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Modern Tasarımlar, Eşsiz Konfor:
-                                    Banyolarınızı yenileyin ve evinize şıklık katın. Geniş ürün yelpazemizle
-                                    hayalinizdeki banyoya kavuşun.</p>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Duşakabin ve Banyo
+                                    Çözümlerinde Modern Dokunuş</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    Modern tasarımlar, kaliteli işçilik ve uzun ömürlü çözümlerle banyolarınıza estetik
+                                    ve konfor kazandırıyoruz.
+                                </p>
                                 <a href="service.html"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
                                 <a href="contact.html"
@@ -151,153 +161,172 @@
                     </div>
                 </div>
             </div>
+
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, .7);">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="ENKABİN banyo çözümleri">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center hero-overlay">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Enkabin'e Hoşgeldiniz!
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Duşakabin ve Banyo Hizmetleri
-                                </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Kalite ve Şıklık Buluşması: Duşakabin ve
-                                    banyo ürünlerinde kaliteyi uygun fiyatlarla sunuyoruz. Evinizin en özel köşesini
-                                    bizimle güzelleştirin.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Enkabin'e Hoşgeldiniz!
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Duşakabin ve Banyo Hizmetleri
-                                </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Evinizin Yeni Favori Köşesi: Banyo ve
-                                    duşakabin ihtiyaçlarınız için doğru adrestesiniz. Şimdi modern tasarımlar ve üstün
-                                    kalite ile tanışın.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-4.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Enkabin'e Hoşgeldiniz!
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Duşakabin ve Banyo Hizmetleri
-                                </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Estetik ve Dayanıklılık Bir Arada:
-                                    Banyonuzda hem şıklığı hem de dayanıklılığı yakalayın. Her zevke uygun
-                                    modellerimizle banyonuzu baştan yaratın.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
+                            <div class="col-12 col-lg-9 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Kalite ve Şıklık Bir
+                                    Arada</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Banyonuz İçin Profesyonel ve
+                                    Güvenilir Hizmet</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    İhtiyacınıza uygun ürünleri, temiz uygulama ve güçlü müşteri desteği ile bir araya
+                                    getiriyoruz.
+                                </p>
+                                <a href="service.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
+                                <a href="contact.html"
+                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="ENKABİN özel banyo çözümleri">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center hero-overlay">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-9 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Estetik, Konfor,
+                                    Dayanıklılık</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Her Banyoya Uygun Özel
+                                    Çözümler</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    Duşakabin, küvet ve tamamlayıcı sistemlerde işlevselliği modern tasarımla
+                                    buluşturuyoruz.
+                                </p>
+                                <a href="service.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
+                                <a href="contact.html"
+                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-4.jpg" alt="ENKABİN modern duşakabin">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center hero-overlay">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-9 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Banyoda Yeni Bir
+                                    Standart</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Şık ve Zamansız Banyo
+                                    Tasarımları</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    Uzun ömürlü malzeme, yüksek memnuniyet ve profesyonel montaj anlayışı ile fark
+                                    yaratıyoruz.
+                                </p>
+                                <a href="service.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Keşfet</a>
+                                <a href="contact.html"
+                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">İletişim</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Carousel End -->
 
-
-    <!-- Feature Start -->
-    <div class="container-xxl py-5">
+    <!-- Feature Mini Start -->
+    <div class="container-xxl py-5 feature-mini-section">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-user-check fa-2x text-primary"></i>
+                    <div class="feature-mini-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center justify-content-center feature-mini-icon">
+                                <i class="fa fa-user-check fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">01</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">01</h1>
+                        <h5>Yaratıcı Tasarımlar</h5>
+                        <p class="mb-0">Mekânınıza özel modern ve kullanışlı çözümler.</p>
                     </div>
-                    <h5>Yaratıcı Tasarımlar</h5>
                 </div>
+
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-check fa-2x text-primary"></i>
+                    <div class="feature-mini-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center justify-content-center feature-mini-icon">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">02</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
+                        <h5>Kaliteli Ürünler</h5>
+                        <p class="mb-0">Uzun ömürlü, dayanıklı ve estetik ürün seçkisi.</p>
                     </div>
-                    <h5>Kaliteli Ürünler</h5>
                 </div>
+
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                    <div class="feature-mini-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center justify-content-center feature-mini-icon">
+                                <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">03</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">03</h1>
+                        <h5>Ücretsiz Danışmanlık</h5>
+                        <p class="mb-0">İhtiyacınıza en uygun çözümü birlikte planlayalım.</p>
                     </div>
-                    <h5>Ücretsiz Danışmanlık</h5>
                 </div>
+
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-headphones fa-2x text-primary"></i>
+                    <div class="feature-mini-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center justify-content-center feature-mini-icon">
+                                <i class="fa fa-headphones fa-2x text-primary"></i>
+                            </div>
+                            <h1 class="display-1 text-light mb-0">04</h1>
                         </div>
-                        <h1 class="display-1 text-light mb-0">04</h1>
+                        <h5>Müşteri Desteği</h5>
+                        <p class="mb-0">Süreç boyunca hızlı ve güvenilir iletişim desteği.</p>
                     </div>
-                    <h5>Müşteri Desteği</h5>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Feature End -->
-
-
+    <!-- Feature Mini End -->
 
     <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid section-panel overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 460px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
-                            style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100 section-image" src="img/about.jpg"
+                            style="object-fit: cover;" alt="Hakkımızda görseli">
                     </div>
                 </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s" style="text-align:justify">
+
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s" style="text-align: justify;">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="section-title text-start">
                             <h1 class="display-5 mb-4">Hakkımızda</h1>
                         </div>
-                        <p class="mb-4 pb-2">Banyo yenileme işinde neden bizi tercih etmelisiniz? Çünkü biz, işimizi
-                            büyük bir özenle ve titizlikle yapıyoruz. Deneyimli ekibimiz, en kaliteli malzemeleri
-                            kullanarak banyonuza modern ve şık bir dokunuş katıyor. Müşteri memnuniyetini her zaman ön
-                            planda tutarak, sizin isteklerinizi dinliyor ve beklentilerinizi aşan çözümler sunuyoruz.
-                            Projelerimizi zamanında ve bütçenize uygun şekilde tamamlayarak, süreci sizin için
-                            olabildiğince stressiz hale getiriyoruz. Eğer güvenilir, profesyonel ve kaliteli bir hizmet
-                            arıyorsanız, doğru adrestesiniz.</p>
+                        <p class="mb-4 pb-2">
+                            ENKABİN olarak banyo yenileme ve duşakabin çözümlerinde kaliteyi, estetiği ve güveni bir
+                            araya getiriyoruz.
+                            Deneyimli ekibimiz; doğru ürün seçimi, temiz uygulama ve müşteri memnuniyeti odaklı
+                            yaklaşımıyla her projeye özenle yaklaşır.
+                            Amacımız yalnızca ürün sunmak değil, yaşam alanlarınıza değer katan kalıcı çözümler
+                            üretmektir.
+                        </p>
+
                         <div class="row g-4 mb-4 pb-2">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="stats-card d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center stats-icon">
                                         <i class="fa fa-users fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
@@ -306,10 +335,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="stats-card d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center stats-icon">
                                         <i class="fa fa-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
@@ -318,10 +348,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="stats-card d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center stats-icon">
                                         <i class="fa fa-clock fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
@@ -330,23 +361,24 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="stats-card d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center stats-icon">
                                         <i class="fa fa-eye fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
-                                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.1em">
-                                            <h2 class="text-primary mb-1" style="width: 1em; margin-left: 0.5em;">%</h2>
-                                            <h2 class="text-primary mb-1" style="width: 1em; margin-left: -0.8em;" ;
-                                                data-toggle="counter-up">99.61</h2>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <h2 class="text-primary mb-1">%</h2>
+                                            <h2 class="text-primary mb-1" data-toggle="counter-up">99.61</h2>
                                         </div>
                                         <p class="fw-medium mb-0">Müşteri Memnuniyeti</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <a href="service.html" class="btn btn-primary py-3 px-5">Keşfet</a>
                     </div>
                 </div>
@@ -355,53 +387,54 @@
     </div>
     <!-- About End -->
 
-
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 service-section">
         <div class="container">
             <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Hizmetlerimiz</h1>
             </div>
+
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="overflow-hidden service-image-wrap">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="Duşakabinler">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
                             <h4 class="mb-3">Duşakabinler</h4>
-                            <p>Özel ölçülerde tasarlanan kaliteli malzeme ve işçiliğiyle, eşsiz duşakabin modelleriyle
-                                banyonuzun şıklığını artırın!</p>
-                            <a class="fw-medium" href="shower.html">Şimdi İnceleyin!<i
+                            <p>Özel ölçülere uygun, şık ve dayanıklı duşakabin çözümleriyle banyonuza güçlü bir karakter
+                                kazandırın.</p>
+                            <a class="fw-medium" href="shower.html">Şimdi İnceleyin! <i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="overflow-hidden service-image-wrap">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="Küvetler">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
                             <h4 class="mb-3">Küvetler</h4>
-                            <p>Banyonuza özel ölçülerle banyo keyfinizi en üst düzeye çıkaracak kaliteli, konforlu ve
-                                pratik küvet
-                                modelleri.</p>
-                            <a class="fw-medium" href="bathtub.html">Şimdi İnceleyin!<i
+                            <p>Konforu ön plana alan, kaliteli ve estetik küvet seçenekleri ile banyoda keyifli bir alan
+                                oluşturun.</p>
+                            <a class="fw-medium" href="bathtub.html">Şimdi İnceleyin! <i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="overflow-hidden service-image-wrap">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="Tavan ve Menfez Sistemleri">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
                             <h4 class="mb-3">Tavan ve Menfez Sistemleri</h4>
-                            <p>Banyonuza hava katacak, uygulaması kolay, hijyenik ve kaliteli tavan ve menfez
-                                sistemlerimizi keşfedin!</p>
-                            <a class="fw-medium" href="ceiling.html">Şimdi İnceleyin!<i
+                            <p>Hijyen, hava sirkülasyonu ve estetik bütünlük sağlayan tamamlayıcı sistemlerle banyonuzu
+                                güçlendirin.</p>
+                            <a class="fw-medium" href="ceiling.html">Şimdi İnceleyin! <i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -411,28 +444,27 @@
     </div>
     <!-- Service End -->
 
-
     <!-- Feature Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid section-panel overflow-hidden my-5 px-lg-0">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s" style="text-align:justify">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s" style="text-align: justify;">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="section-title text-start">
                             <h1 class="display-5 mb-4">Neden Enkabin?</h1>
                         </div>
-                        <p class="mb-4 pb-2">Banyo yenileme işinde neden bizi tercih etmelisiniz? Çünkü biz, işimizi
-                            büyük bir özenle ve titizlikle yapıyoruz. Deneyimli ekibimiz, en kaliteli malzemeleri
-                            kullanarak banyonuza modern ve şık bir dokunuş katıyor. Müşteri memnuniyetini her zaman ön
-                            planda tutarak, sizin isteklerinizi dinliyor ve beklentilerinizi aşan çözümler sunuyoruz.
-                            Projelerimizi zamanında ve bütçenize uygun şekilde tamamlayarak, süreci sizin için
-                            olabildiğince stressiz hale getiriyoruz. Eğer güvenilir, profesyonel ve kaliteli bir hizmet
-                            arıyorsanız, doğru adrestesiniz.</p>
+                        <p class="mb-4 pb-2">
+                            Çünkü biz, banyoları sadece yenilemiyor; daha kullanışlı, daha estetik ve daha değerli yaşam
+                            alanlarına dönüştürüyoruz.
+                            Ürün seçiminden montaja kadar her aşamada profesyonel yaklaşım, temiz işçilik ve zamanında
+                            teslim anlayışıyla hareket ediyoruz.
+                        </p>
+
                         <div class="row g-4">
                             <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="feature-box d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center feature-box-icon">
                                         <i class="fa fa-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
@@ -441,10 +473,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="feature-box d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center feature-box-icon">
                                         <i class="fa fa-user-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
@@ -453,10 +486,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="feature-box d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center feature-box-icon">
                                         <i class="fa fa-drafting-compass fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
@@ -465,10 +499,11 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px;">
+                                <div class="feature-box d-flex align-items-center">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center feature-box-icon">
                                         <i class="fa fa-headphones fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
@@ -480,10 +515,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+
+                <div class="col-lg-6 pe-lg-0" style="min-height: 460px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
-                            style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100 section-image" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="Neden Enkabin görseli">
                     </div>
                 </div>
             </div>
@@ -491,81 +527,22 @@
     </div>
     <!-- Feature End -->
 
-    <!-- Projects Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Ürünlerimiz</h1>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item wow" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/temperli-6.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/temperli-6.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Temperli Cam Lüks Duşakabinler</p>
-                            <h5 class="lh-base mb-0">Siyah Konsept Cam Duşakabin</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item wow" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kuvet-6.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kuvet-6.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Küvetler</p>
-                            <h5 class="lh-base mb-0">Artmina Düz Shower Küvet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item wow" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/tavan-2.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/tavan-2.jpg"
-                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                 <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Tavan Sistemleri</p>
-                            <h5 class="lh-base mb-0">Clip-In Asma Tavan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Projects End -->
-
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5 team-section">
         <div class="container">
             <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Ekibimiz</h1>
             </div>
-            <div class="row g-5" style="justify-content: center;">
+
+            <div class="row g-5 justify-content-center">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="Nusret Karabulut">
                             <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
@@ -574,14 +551,15 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="Can Yavuz">
                             <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
@@ -590,41 +568,39 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid section-panel overflow-hidden my-5 px-lg-0">
         <div class="container quote px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 460px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
-                            style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100 section-image" src="img/quote.jpg"
+                            style="object-fit: cover;" alt="Teklif alın görseli">
                     </div>
                 </div>
+
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Teklif Alın!</h1>
+                            <h1 class="display-5 mb-4">Teklif Alın</h1>
                         </div>
-                        <p class="mb-4 pb-2" style="text-align: justify;">Hayalinizdeki banyoya bir adım daha yaklaşmak
-                            için hemen teklif alın!
-                            Deneyimli ekibimiz, ihtiyaçlarınıza özel çözümler sunmak için burada. Projenizin detaylarını
-                            bizimle paylaşın, size en uygun ve kaliteli hizmeti sunalım. Bizi arayarak keşif ve detaylı
-                            teklifimize ulaşabilirsiniz.</p>
-                        <div class="col-lg-11 col-md-6">
-                            <h4 class="text-light mb-4">Adres</h4>
-                            <p class="mb-2" style="font-size: 1.5em;"><i class="fa fa-map-marker-alt me-3"></i>Sancak
-                                Mah. 524 Sok. 8/A, Çankaya, Ankara
-                            </p>
-                            <p class="mb-2" style="font-size: 1.5em; margin-top: 1em;"><i
-                                    class="fa fa-phone-alt me-3"></i>0312 490 90 07</p>
-                            <p class="mb-2" style="font-size: 1.5em; margin-top: 1em;"><i
-                                    class="fa fa-envelope me-3"></i>kurumsal@enkabin.com</p>
+                        <p class="mb-4 pb-2" style="text-align: justify;">
+                            Hayalinizdeki banyoya bir adım daha yaklaşmak için bizimle iletişime geçin.
+                            İhtiyacınıza özel çözümler sunmak, keşif sürecini planlamak ve size uygun seçenekleri
+                            paylaşmak için hazırız.
+                        </p>
+
+                        <div class="contact-card">
+                            <h4 class="mb-4">İletişim Bilgileri</h4>
+                            <p class="mb-3"><i class="fa fa-map-marker-alt me-3"></i>Sancak Mah. 524 Sok. 8/A, Çankaya,
+                                Ankara</p>
+                            <p class="mb-3"><i class="fa fa-phone-alt me-3"></i>0312 490 90 07</p>
+                            <p class="mb-0"><i class="fa fa-envelope me-3"></i>kurumsal@enkabin.com</p>
                         </div>
                     </div>
                 </div>
@@ -633,74 +609,65 @@
     </div>
     <!-- Quote End -->
 
-
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.3s">
+    <div class="container-xxl py-5 wow fadeInUp testimonial-section" data-wow-delay="0.3s">
         <div class="container">
             <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Kullanıcı Yorumları</h1>
             </div>
+
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
-                        style="width: 90px; height: 90px;">
+                        style="width: 90px; height: 90px;" alt="Müşteri yorumu 1">
                     <div class="testimonial-text text-center p-4">
-                        <p>Banyomu yenilettim ve özellikle duşakabin bölümü çok güzel oldu.
-                            Ekip işini gerçekten iyi
-                            biliyor, her şey tam istediğim gibi oldu. Duşakabinin kalitesi harika, montaj da çok iyi
-                            yapıldı. Temizlik konusunda da çok dikkatliydiler. Banyom şimdi çok daha modern ve rahat.
-                        </p>
+                        <p>Banyomu yenilettim ve özellikle duşakabin bölümü çok güzel oldu. Ekip işini gerçekten iyi
+                            biliyor, her şey tam istediğim gibi oldu. Banyom şimdi çok daha modern ve rahat.</p>
                         <h5 class="mb-1">Miraç Onur Şahin</h5>
                         <span class="fst-italic">Müşteri</span>
                     </div>
                 </div>
+
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
-                        style="width: 90px; height: 90px;">
+                        style="width: 90px; height: 90px;" alt="Müşteri yorumu 2">
                     <div class="testimonial-text text-center p-4">
-                        <p>Ben dairemizdeki küvet temin ve montajı vesilesi ile şans eseri
-                            tanıştım. Küvet temini tam
-                            dedikleri zamanda, montaj ise benim istediğim gün ve saate yapıldı. Sürecin her aşamasında,
-                            güler yüzlü, titiz ve temiz bir hizmet aldım. Ben kendilerini tanıdığıma ve aldığım hizmetin
-                            her aşamadaki kalitesinden çok memnun oldum. İhtiyacı olanlara gönül rahatlığıyla tavsiye
-                            ederim.</p>
-                        <h5 class="mb-1">A.Tevfik İnan</h5>
+                        <p>Küvet temini ve montajı tam dedikleri zamanda yapıldı. Sürecin her aşamasında güler yüzlü,
+                            titiz ve temiz bir hizmet aldım. Gönül rahatlığıyla tavsiye ederim.</p>
+                        <h5 class="mb-1">A. Tevfik İnan</h5>
                         <span class="fst-italic">Müşteri</span>
                     </div>
                 </div>
+
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
-                        style="width: 90px; height: 90px;">
+                        style="width: 90px; height: 90px;" alt="Müşteri yorumu 3">
                     <div class="testimonial-text text-center p-4">
-                        <p>2 banyomuza duşakabin ve seramik yapıldı, her anlamda çok memnun
-                            kaldık, işçiliği çok iyiydi,
-                            sonuçta çok güzel oldu herkes çok beğendi. Özellikle duşakabini yüksek yapmalarını çok
-                            beğendik, sözleştiğimiz gün geldiler tertemiz titiz çalıştılar, alt komşumuzun banyosuna
-                            düşen tozları bile inip sildiler, çok teşekkür ederiz ellerinize sağlık tekrardan 🙏🏻</p>
+                        <p>İki banyomuza duşakabin ve seramik yapıldı, her anlamda çok memnun kaldık. İşçilik çok
+                            iyiydi, sonuç gerçekten harika oldu. Temiz ve titiz çalışma için ayrıca teşekkür ederiz.</p>
                         <h5 class="mb-1">Pınar Bil</h5>
                         <span class="fst-italic">Müşteri</span>
                     </div>
                 </div>
+
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
-                        style="width: 90px; height: 90px;">
+                        style="width: 90px; height: 90px;" alt="Müşteri yorumu 4">
                     <div class="testimonial-text text-center p-4">
-                        <p>Duşakabin değişikliği nedeniyle araştırma yaparken orkabin
-                            duşakabin ile çalışma fırsatım
-                            oldu. Temiz titiz estetik planlı ve güvenilir bir firma arıyorsanız doğru yerdesiniz
-                            demektir. Çok memnun kaldım çok teşekkür ediyorum…</p>
+                        <p>Temiz, titiz, estetik, planlı ve güvenilir bir firma arıyorsanız doğru yerdesiniz. Çok memnun
+                            kaldım, çok teşekkür ediyorum.</p>
                         <h5 class="mb-1">Başak Dipçin</h5>
                         <span class="fst-italic">Müşteri</span>
                     </div>
                 </div>
+
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-5.jpg"
-                        style="width: 90px; height: 90px;">
+                        style="width: 90px; height: 90px;" alt="Müşteri yorumu 5">
                     <div class="testimonial-text text-center p-4">
-                        <p>Annemin banyosunu yeniledik ve duşakabin için tavsiye üzerine
-                            Can Bey ile tanıştık, oldukça
-                            nazik ve kibar bir beyefendi, cuma günü ölçü aldılar pazartesi günü montajını yaptılar, çok
-                            temiz ve titiz çalıştılar, herkese tavsiye ediyorum.</p>
+                        <p>Annemin banyosunu yeniledik ve duşakabin için Can Bey ile tanıştık. Cuma günü ölçü aldılar,
+                            pazartesi günü montajı yaptılar. Çok temiz ve titiz çalıştılar, herkese tavsiye ediyorum.
+                        </p>
                         <h5 class="mb-1">Füsun Erkanlı</h5>
                         <span class="fst-italic">Müşteri</span>
                     </div>
@@ -709,7 +676,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -734,12 +700,14 @@
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Hizmetlerimiz</h4>
                     <a class="btn btn-link" href="shower.html">Duşakabinler</a>
                     <a class="btn btn-link" href="bathtub.html">Küvetler</a>
                     <a class="btn btn-link" href="ceiling.html">Tavan ve Menfez</a>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Hızlı Bağlantılar</h4>
                     <a class="btn btn-link" href="about.html">Hakkımızda</a>
@@ -748,6 +716,7 @@
                     <a class="btn btn-link" href="team.html">Ekibimiz</a>
                     <a class="btn btn-link" href="testimonial.html">Kullanıcı Yorumları</a>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Bülten</h4>
                     <p>Yeniliklerden haberdar olun.</p>
@@ -760,22 +729,18 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col-12 text-center text-md-start mb-0">
                         &copy; <a class="border-bottom" href="#">Enkabin</a>, Tüm Hakları Saklıdır.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -797,15 +762,44 @@
     <script src="js/main.js"></script>
 
     <!-- WhatsApp Script -->
-    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script async src="https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js"></script>
     <script>
-        var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "905445598071", "welcomeMessage": "Ürünlerinizle ilgili bilgi almak istiyorum.", "zIndex": 999999, "btnColorScheme": "light" };
-        var wa_widgetSetting = { "title": "Enkabin", "subTitle": "1 saat içinde cevaplar", "headerBackgroundColor": "#16BE45", "headerColorScheme": "dark", "greetingText": "Enkabin'e hoşgeldiniz! \nSize nasıl yardımcı olabiliriz?", "ctaText": "Sohbete başla", "btnColor": "#16BE45", "cornerRadius": 40, "welcomeMessage": "Hello", "btnColorScheme": "light", "brandImage": "img/favicon.ico", "darkHeaderColorScheme": { "title": "#333333", "subTitle": "#4F4F4F" } };
+        var wa_btnSetting = {
+            "btnColor": "#16BE45",
+            "ctaText": "",
+            "cornerRadius": 40,
+            "marginBottom": 20,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "btnPosition": "left",
+            "whatsAppNumber": "905445598071",
+            "welcomeMessage": "Ürünlerinizle ilgili bilgi almak istiyorum.",
+            "zIndex": 999999,
+            "btnColorScheme": "light"
+        };
+
+        var wa_widgetSetting = {
+            "title": "Enkabin",
+            "subTitle": "1 saat içinde cevaplar",
+            "headerBackgroundColor": "#16BE45",
+            "headerColorScheme": "dark",
+            "greetingText": "Enkabin'e hoşgeldiniz! \nSize nasıl yardımcı olabiliriz?",
+            "ctaText": "Sohbete başla",
+            "btnColor": "#16BE45",
+            "cornerRadius": 40,
+            "welcomeMessage": "Hello",
+            "btnColorScheme": "light",
+            "brandImage": "img/favicon.ico",
+            "darkHeaderColorScheme": {
+                "title": "#333333",
+                "subTitle": "#4F4F4F"
+            }
+        };
+
         window.onload = () => {
             _waEmbed(wa_btnSetting, wa_widgetSetting);
         };
     </script>
-
 </body>
 
 </html>

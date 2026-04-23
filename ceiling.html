@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ENKABİN</title>
+    <title>ENKABİN | Tavan ve Menfez Sistemleri</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="asma tavan, menfez, tavan sistemleri, ENKABİN, banyo tavan çözümleri" name="keywords">
+    <meta content="ENKABİN tavan ve menfez sistemleri. Modern, estetik ve işlevsel tavan çözümlerini inceleyin."
+        name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -15,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@500;700;900&family=Rajdhani:wght@600;700&display=swap"
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
@@ -36,7 +37,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!--Fancybox Lib for photos-->
+    <!-- Fancybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 </head>
 
@@ -50,9 +51,8 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid topbar-wrap p-0">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -87,30 +87,39 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
-            font-size: 2em; color: #000 !important;"><b>ENKABİN</b></h2>
+            <div class="brand-mark">
+                <!-- <span class="brand-mark-box">
+                    <img src="img/favicon.ico" alt="Enkabin Logo">
+                </span> -->
+                <h2 class="brand-title" style="font-size: 3.2rem !important;">ENKABİN</h2>
+            </div>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-label="Menüyü Aç">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
                 <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
                 <a href="service.html" class="nav-item nav-link">Hizmetlerimiz</a>
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ürünler</a>
-                    <div class="dropdown-menu m-0">
+                    <div class="dropdown-menu fade-up m-0">
                         <a href="shower.html" class="dropdown-item">Duşakabinler</a>
                         <a href="bathtub.html" class="dropdown-item">Küvetler</a>
                         <a href="ceiling.html" class="dropdown-item">Tavan ve Menfez Sistemleri</a>
                     </div>
                 </div>
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
-                    <div class="dropdown-menu m-0">
+                    <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Neden Enkabin?</a>
                         <a href="team.html" class="dropdown-item">Ekibimiz</a>
                         <a href="quote.html" class="dropdown-item">Teklif Alın</a>
@@ -118,10 +127,13 @@
                         <a href="contact.html" class="dropdown-item">Bize Ulaşın</a>
                     </div>
                 </div>
+
                 <a href="contact.html" class="nav-item nav-link">İletişim</a>
             </div>
-            <a href="service.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Keşfet<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+
+            <a href="service.html" class="btn nav-cta d-none d-lg-inline-flex">
+                <span>Keşfet</span> <i class="fa fa-arrow-right ms-3"></i>
+            </a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -130,31 +142,31 @@
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Tavan ve Menfez Sistemleri</h1>
-            <!-- <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Project</li>
-                </ol>
-            </nav> -->
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Projects Start -->
+    <!-- Products Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Tavan ve Menfez Sistemleri</h1>
+                <h1 class="display-5 mb-4">Tavan ve Menfez Sistemleri</h1>
             </div>
-            <div class="row g-4">
+
+            <p class="text-center catalog-intro mb-5">
+                Banyolarda estetik bütünlük ve hava sirkülasyonu sağlayan tavan ve menfez çözümlerimizi inceleyin.
+                Görselleri büyütmek için ürünlerin üzerine tıklayabilirsiniz.
+            </p>
+
+            <div class="row g-4 catalog-grid">
                 <!-- Product 1 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Tavan</span>
                             <a data-fancybox="gallery" href="img/tavan-1.jpg">
-                                <img class="img-fluid" src="img/tavan-1.jpg" alt="">
+                                <img class="img-fluid" src="img/tavan-1.jpg" alt="Clip-In Asma Tavan">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
@@ -163,12 +175,15 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Product 2 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Tavan</span>
                             <a data-fancybox="gallery" href="img/tavan-2.jpg">
-                                <img class="img-fluid" src="img/tavan-2.jpg" alt="">
+                                <img class="img-fluid" src="img/tavan-2.jpg" alt="Clip-In Asma Tavan">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
@@ -177,26 +192,32 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Product 3 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Tavan</span>
                             <a data-fancybox="gallery" href="img/tavan-3.jpg">
-                                <img class="img-fluid" src="img/tavan-3.jpg" alt="">
+                                <img class="img-fluid" src="img/tavan-3.jpg" alt="Yıldız Desen PVC Asma Tavan">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
-                            <h5 class="mb-3">Yıldız Desen Pvc Asma Tavan</h5>
+                            <h5 class="mb-3">Yıldız Desen PVC Asma Tavan</h5>
                             <p>Tavan Sistemleri</p>
                         </div>
                     </div>
                 </div>
+
                 <!-- Product 4 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Menfez</span>
                             <a data-fancybox="gallery" href="img/menfez-1.jpg">
-                                <img class="img-fluid" src="img/menfez-1.jpg" alt="">
+                                <img class="img-fluid" src="img/menfez-1.jpg" alt="Altın Renk Menfez">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
@@ -205,12 +226,15 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Product 5 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Menfez</span>
                             <a data-fancybox="gallery" href="img/menfez-2.jpg">
-                                <img class="img-fluid" src="img/menfez-2.jpg" alt="">
+                                <img class="img-fluid" src="img/menfez-2.jpg" alt="Beyaz Renk Menfez">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
@@ -219,12 +243,15 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Product 6 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="project-item rounded overflow-hidden">
+                    <div class="project-item">
                         <div class="position-relative">
+                            <span class="product-badge">Menfez</span>
                             <a data-fancybox="gallery" href="img/menfez-3.jpg">
-                                <img class="img-fluid" src="img/menfez-3.jpg" alt="">
+                                <img class="img-fluid" src="img/menfez-3.jpg" alt="Gümüş Renk Menfez">
+                                <span class="zoom-chip"><i class="bi bi-search"></i></span>
                             </a>
                         </div>
                         <div class="p-4">
@@ -236,11 +263,10 @@
             </div>
         </div>
     </div>
-    <!-- Projects End -->
-
+    <!-- Products End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -262,12 +288,14 @@
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Hizmetlerimiz</h4>
                     <a class="btn btn-link" href="shower.html">Duşakabinler</a>
                     <a class="btn btn-link" href="bathtub.html">Küvetler</a>
                     <a class="btn btn-link" href="ceiling.html">Tavan ve Menfez</a>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Hızlı Bağlantılar</h4>
                     <a class="btn btn-link" href="about.html">Hakkımızda</a>
@@ -276,6 +304,7 @@
                     <a class="btn btn-link" href="team.html">Ekibimiz</a>
                     <a class="btn btn-link" href="testimonial.html">Kullanıcı Yorumları</a>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Bülten</h4>
                     <p>Yeniliklerden haberdar olun.</p>
@@ -288,15 +317,12 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col-12 text-center text-md-start mb-0">
                         &copy; <a class="border-bottom" href="#">Enkabin</a>, Tüm Hakları Saklıdır.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                 </div>
             </div>
@@ -304,10 +330,8 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -335,8 +359,6 @@
             _waEmbed(wa_btnSetting, wa_widgetSetting);
         };
     </script>
-
-
 </body>
 
 </html>
