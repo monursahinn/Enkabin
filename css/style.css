@@ -1155,6 +1155,7 @@ img {
 
 .section-image {
     filter: brightness(0.86) saturate(0.95);
+    border-radius: 26px;
 }
 
 /*** About / Feature / Quote container widths ***/
